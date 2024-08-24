@@ -15,11 +15,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Add Color",
-        link: "/Colors/Add-Color",
+        link: "/colors/add-color",
       },
       {
         navName: "View Color",
-        link: "/Colors/View-Color",
+        link: "/colors/view-color",
       },
     ],
   },
@@ -39,11 +39,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Size Details",
-        link: "/Size/Size-Details",
+        link: "/size/size-details",
       },
       {
         navName: "View Size",
-        link: "/Size/View-Size",
+        link: "/size/view-size",
       },
     ],
   },
@@ -63,11 +63,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Add Category",
-        link: "/ParentCategory/Add-Category",
+        link: "/parent-category/add-category",
       },
       {
         navName: "View Category",
-        link: "/ParentCategory/View-Category",
+        link: "/parent-category/view-category",
       },
     ],
   },
@@ -87,11 +87,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Add Sub Category",
-        link: "/SubCategory/Add-Sub-Category",
+        link: "/sub-category/add-sub-category",
       },
       {
         navName: "View Sub Category",
-        link: "/SubCategory/View-Sub-Category",
+        link: "/sub-category/view-sub-category",
       },
     ],
   },
@@ -112,11 +112,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Product Details",
-        link: "/Product/Product-Details",
+        link: "/product/product-details",
       },
       {
         navName: "Product Items",
-        link: "/Product/Product-Items",
+        link: "/product/product-items",
       },
     ],
   },
@@ -136,11 +136,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Story Details",
-        link: "/Story/Story-Details",
+        link: "/story/story-details",
       },
       {
         navName: "Story View",
-        link: "/Story/Story-View",
+        link: "/story/story-view",
       },
     ],
   },
@@ -160,12 +160,10 @@ export let navList = [
         <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
       </svg>
     ),
-
-    //  🔴🔴🔴 ! Orders List PAge is Not Coming
     subMenu: [
       {
         navName: "Orders",
-        link: "/Orders",
+        link: "/orders/orders",
       },
     ],
   },
@@ -185,11 +183,11 @@ export let navList = [
     subMenu: [
       {
         navName: "Slider Details",
-        link: "/Slider/Slider-Details",
+        link: "/slider/slider-details",
       },
       {
         navName: "Slider View",
-        link: "/Slider/Slider-View",
+        link: "/slider/slider-view",
       },
     ],
   },

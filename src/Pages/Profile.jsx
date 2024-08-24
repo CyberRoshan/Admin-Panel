@@ -6,15 +6,9 @@ import Footer from "../common/Footer";
 
 export default function Profile() {
   return (
-    <section className="w-full">
-      <div className="grid grid-cols-[16.5%_auto]">
-        <div>
-          <Sidebar />
-        </div>
-        <div>
-          <Header />
-          <Breadcrumb path={"Profile"} />
-          <div className="w-full h-[610px]">
+    <>
+    <Breadcrumb path={"Profile"} />
+          <div className="w-full">
             <div className="max-w-[1220px] mx-auto py-5">
               <h3 className="text-[20px] font-semibold bg-slate-100 py-2 px-3 rounded-t-md border border-slate-400">
                 Profile
@@ -173,10 +167,7 @@ export default function Profile() {
                 </div>
               </div>
             </div>
-            <Footer/>
           </div>
-        </div>
-      </div>
-    </section>
+          </>
   );
 }

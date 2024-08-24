@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
-import Sidebar from '../../common/Sidebar'
-import Header from '../../common/Header'
 import Breadcrumb from '../../common/Breadcrumb'
-import Footer from '../../common/Footer'
 
 export default function ViewCategory() {
     let [orderModal, setOrderModal] = useState(false);
@@ -75,14 +72,8 @@ export default function ViewCategory() {
       </div>
       </div>
       {/* Order Modal End */}
-    <div className="grid grid-cols-[16.5%_auto]">
-      <div>
-        <Sidebar />
-      </div>
-      <div>
-        <Header />
         <Breadcrumb path={"Parent Category"} path2={"View Category"} slash={"/"} />
-        <div className="w-full h-[610px]">
+        <div className="w-full min-h-[610px]">
           <div className="max-w-[1220px] mx-auto py-5">
             <h3 className="text-[26px] font-semibold bg-slate-100 py-3 px-4 rounded-t-md border border-slate-400">
               View Category
@@ -229,9 +220,6 @@ export default function ViewCategory() {
             </div>
           </div>
         </div>
-        <Footer />
-      </div>
-    </div>
   </section>
   )
 }

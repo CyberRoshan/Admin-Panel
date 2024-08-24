@@ -6,13 +6,7 @@ import Footer from '../../common/Footer'
 
 export default function ViewSize() {
   return (
-    <section className="w-full">
-    <div className="grid grid-cols-[16.5%_auto]">
-      <div>
-        <Sidebar />
-      </div>
-      <div>
-        <Header />
+    <>
         <Breadcrumb path={"Size"} path2={"View Size"} slash={"/"} />
         <div className="w-full h-[610px]">
           <div className="max-w-[1220px] mx-auto py-5">
@@ -96,9 +90,6 @@ export default function ViewSize() {
             </div>
           </div>
         </div>
-        <Footer />
-      </div>
-    </div>
-  </section>
+        </>
   )
 }

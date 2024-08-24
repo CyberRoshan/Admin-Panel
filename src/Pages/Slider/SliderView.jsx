@@ -1,20 +1,11 @@
 import React from 'react'
-import Sidebar from '../../common/Sidebar'
-import Header from '../../common/Header'
 import Breadcrumb from '../../common/Breadcrumb'
-import Footer from '../../common/Footer'
 
 export default function SliderView() {
   return (
     <section className="w-full">
-    <div className="grid grid-cols-[16.5%_auto]">
-      <div>
-        <Sidebar />
-      </div>
-      <div>
-        <Header />
         <Breadcrumb path={"Slider"} path2={"Slider View"} slash={"/"} />
-        <div className="w-full h-[610px]">
+        <div className="w-full min-h-[610px]">
           <div className="max-w-[1220px] mx-auto py-5">
             <h3 className="text-[26px] font-semibold bg-slate-100 py-3 px-4 rounded-t-md border border-slate-400">
                Slider View
@@ -89,9 +80,6 @@ export default function SliderView() {
             </div>
           </div>
         </div>
-        <Footer />
-      </div>
-    </div>
   </section>
   )
 }
