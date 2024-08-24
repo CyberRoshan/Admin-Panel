@@ -17,20 +17,20 @@ export default function Orders() {
         }  block overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full`}
       >
           <div className="fixed w-full h-screen " style={{backgroundColor: "rgba(0,0,0,0.8)"}}></div>
-        <div class="relative p-4 px-20 w-full max-w-full max-h-full">
-          <div class="relative bg-white rounded-lg shadow ">
-            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t ">
-              <h3 class="text-xl font-semibold text-gray-900">
+        <div className="relative p-4 px-20 w-full max-w-full max-h-full">
+          <div className="relative bg-white rounded-lg shadow ">
+            <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t ">
+              <h3 className="text-xl font-semibold text-gray-900">
                 Product Image's & Price
               </h3>
               <button
                 onClick={() => setOrderModal(false)}
                 type="button"
-                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+                className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
                 data-modal-hide="order-modal"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -44,10 +44,10 @@ export default function Orders() {
                     d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                   />
                 </svg>
-                <span class="sr-only">Close modal</span>
+                <span className="sr-only">Close modal</span>
               </button>
             </div>
-            <div class="p-4 md:p-5 space-y-4">
+            <div className="p-4 md:p-5 space-y-4">
               <div className="grid grid-cols-[58%_27%] gap-10 justify-between">
                 <div className="space-y-8">
                   <div className="flex gap-8 items-center">
@@ -108,74 +108,74 @@ export default function Orders() {
                 Order's List
               </h3>
               <div className="border border-t-0 rounded-b-md border-slate-400">
-                <div class="relative overflow-x-auto">
-                  <table class="w-full  text-left rtl:text-right text-gray-500 ">
-                    <thead class="text-sm text-gray-700 uppercase bg-gray-50 ">
+                <div className="relative overflow-x-auto">
+                  <table className="w-full  text-left rtl:text-right text-gray-500 ">
+                    <thead className="text-sm text-gray-700 uppercase bg-gray-50 ">
                       <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           <button
                             type="button"
-                            class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                            className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                           >
                             Delete
                           </button>
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           S. No.
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Order ID
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Name
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Quantity
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Price
                         </th>
 
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Date
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           Status
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           View
                         </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr class="bg-white border-b">
+                      <tr className="bg-white border-b">
                         <th
                           scope="row"
-                          class="px-6 py-4 text-[18px] font-semibold text-gray-900 whitespace-nowrap "
+                          className="px-6 py-4 text-[18px] font-semibold text-gray-900 whitespace-nowrap "
                         >
                           <input
                             id="purple-checkbox"
                             type="checkbox"
                             value=""
-                            class="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "
+                            className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "
                           />
                         </th>
-                        <td class="px-6 py-4 font-bold">1</td>
-                        <td class="px-6 py-4">Frank01</td>
-                        <td class="px-6 py-4 font-semibold">
+                        <td className="px-6 py-4 font-bold">1</td>
+                        <td className="px-6 py-4">Frank01</td>
+                        <td className="px-6 py-4 font-semibold">
                           Roshan Chaurasia
                         </td>
-                        <td class="px-6 py-4 text-center">2</td>
-                        <td class="px-6 py-4">₹ 3500</td>
-                        <td class="px-6 py-4">10/06/2024</td>
-                        <td class="px-6 py-4">Processing...</td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4 text-center">2</td>
+                        <td className="px-6 py-4">₹ 3500</td>
+                        <td className="px-6 py-4">10/06/2024</td>
+                        <td className="px-6 py-4">Processing...</td>
+                        <td className="px-6 py-4">
                           <button
                             onClick={() => setOrderModal(true)}
                             data-modal-target="order-modal"
                             data-modal-toggle="order-modal"
                             type="button"
-                            class=" mt-2 py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+                            className=" mt-2 py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
                           >
                             View
                           </button>

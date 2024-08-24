@@ -102,7 +102,6 @@ const route=createBrowserRouter([
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <Home /> */}
     <RouterProvider router={route}>
 
     </RouterProvider>

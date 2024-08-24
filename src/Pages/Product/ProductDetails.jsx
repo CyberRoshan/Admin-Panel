@@ -24,54 +24,54 @@ export default function ProductDetails() {
               Product Details
             </h3>
             <div className="border border-t-0 p-3 rounded-b-md border-slate-400">
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                   Product Name
                 </label>
                 <input
                   type="text"
                   id="base-input"
-                  class="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
+                  className="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
                   placeholder="Product Name"
                 />
               </div>
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                   Product Description
                 </label>
-                <textarea id="message" rows="3" class=" resize-none block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Add Product Description....."></textarea>
+                <textarea id="message" rows="3" className=" resize-none block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Add Product Description....."></textarea>
               </div>
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                   Short Description
                 </label>
-                <textarea id="message" rows="3" class=" resize-none block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Add Product Short Description....."></textarea>
+                <textarea id="message" rows="3" className=" resize-none block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Add Product Short Description....."></textarea>
               </div>
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                   Product Image
                 </label>
-                <form class="max-w-full">
-                  <label for="file-input" class="sr-only">
+                <form className="max-w-full">
+                  <label for="file-input" className="sr-only">
                     Choose file
                   </label>
                   <input
                     type="file"
                     name="file-input"
                     id="file-input"
-                    class="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
+                    className="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
   file:bg-gray-50 file:border-0
   file:me-4
   file:py-3 file:px-4
@@ -79,22 +79,22 @@ export default function ProductDetails() {
                   />
                 </form>
               </div>
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                 Image Animation
                 </label>
-                <form class="max-w-full">
-                  <label for="file-input" class="sr-only">
+                <form className="max-w-full">
+                  <label for="file-input" className="sr-only">
                     Choose file
                   </label>
                   <input
                     type="file"
                     name="file-input"
                     id="file-input"
-                    class="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
+                    className="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
   file:bg-gray-50 file:border-0
   file:me-4
   file:py-3 file:px-4
@@ -102,22 +102,22 @@ export default function ProductDetails() {
                   />
                 </form>
               </div>
-              <div class="mb-5">
+              <div className="mb-5">
                 <label
                   for="base-input"
-                  class="block mb-5 text-md font-medium text-gray-900"
+                  className="block mb-5 text-md font-medium text-gray-900"
                 >
                   Product Gallery
                 </label>
-                <form class="max-w-full">
-                  <label for="file-input" class="sr-only">
+                <form className="max-w-full">
+                  <label for="file-input" className="sr-only">
                     Choose file
                   </label>
                   <input
                     type="file"
                     name="file-input"
                     id="file-input"
-                    class="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
+                    className="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
   file:bg-gray-50 file:border-0
   file:me-4
   file:py-3 file:px-4
@@ -126,38 +126,38 @@ export default function ProductDetails() {
                 </form>
               </div>
               <form className='mb-5'>
-        <div class="grid sm:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8">
           <div>
-          <label class="block mb-5 text-md font-medium text-gray-900">Price</label>
+          <label className="block mb-5 text-md font-medium text-gray-900">Price</label>
           <input
                   type="text"
                   id="base-input"
-                  class="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
+                  className="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
                   placeholder="Product Price"
                 />
           </div>
           <div>
-          <label class="block mb-5 text-md font-medium text-gray-900">MRP</label>
+          <label className="block mb-5 text-md font-medium text-gray-900">MRP</label>
           <input
                   type="text"
                   id="base-input"
-                  class="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
+                  className="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
                   placeholder="Product MRP"
                 />
           </div>
           </div>
             </form>
-            <div class="mb-5">
+            <div className="mb-5">
                   <label
                     for="base-input"
-                    class="block mb-5 text-md font-medium text-gray-900"
+                    className="block mb-5 text-md font-medium text-gray-900"
                   >
                     Select Parent Category
                   </label>
 
                   <select
                     id="default"
-                    class=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                    className=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                   >
                     <option selected>--Select Parent Category--</option>
                     <option value="Mens">Men's</option>
@@ -165,17 +165,17 @@ export default function ProductDetails() {
                     <option value="Sale">Sale</option>
                   </select>
                 </div>
-            <div class="mb-5">
+            <div className="mb-5">
                   <label
                     for="base-input"
-                    class="block mb-5 text-md font-medium text-gray-900"
+                    className="block mb-5 text-md font-medium text-gray-900"
                   >
                     Select Sub Category
                   </label>
 
                   <select
                     id="default"
-                    class=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                    className=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                   >
                     <option selected>--Select Sub Category--</option>
                     <option value="tShirt">T-shirt</option>
@@ -183,12 +183,12 @@ export default function ProductDetails() {
                   </select>
                 </div>
                 <form className='mb-5'>
-        <div class="grid sm:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8">
           <div>
-          <label class="block mb-5 text-md font-medium text-gray-900">Size</label>
+          <label className="block mb-5 text-md font-medium text-gray-900">Size</label>
           <select
                     id="default"
-                    class=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                    className=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                   >
                     <option selected>--Select Size--</option>
                     <option value="tShirt">S</option>
@@ -199,10 +199,10 @@ export default function ProductDetails() {
                   </select>
           </div>
           <div>
-          <label class="block mb-5 text-md font-medium text-gray-900">Color</label>
+          <label className="block mb-5 text-md font-medium text-gray-900">Color</label>
           <select
                     id="default"
-                    class=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                    className=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                   >
                     <option selected>--Select Color--</option>
                     <option value="tShirt">Red</option>
@@ -219,21 +219,21 @@ export default function ProductDetails() {
                     id="link-radio"
                     type="radio"
                     value=""
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
                   ></input>
                   Active
                   <input
                     id="link-radio"
                     type="radio"
                     value=""
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
                   ></input>
                   Deactive
                 </span>
               </div>
               <button
                 type="button"
-                class="focus:outline-none my-10 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+                className="focus:outline-none my-10 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
               >
                 Add Product
               </button>
