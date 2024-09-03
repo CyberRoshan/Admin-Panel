@@ -16,7 +16,7 @@ export default function Sidebar() {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 scrollbar-hide">
-          <Link to={"/Home"}>
+          <Link to={"/home"}>
             <a className="flex items-center ps-2.5 mb-5 border-b border-slate-400 pb-7">
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
@@ -29,7 +29,7 @@ export default function Sidebar() {
             </a>
           </Link>
           <ul className="space-y-2 font-medium">
-            <Link to={"/Dashboard"}>
+            <Link to={"/dashboard"}>
               <li>
                 <a
                   href="#"
@@ -49,7 +49,7 @@ export default function Sidebar() {
                 </a>
               </li>
             </Link>
-            <Link to={"/Profile"}>
+            <Link to={"/profile"}>
               <li>
                 <a
                   href="#"
