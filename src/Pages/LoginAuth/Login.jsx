@@ -9,7 +9,7 @@ export default function Login() {
           <img className="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo"/>
           Frank and Oak     
       </a>
-      <div className="w-[500px] bg-white rounded-lg shadow-2xl">
+      <form className="w-[500px] bg-white rounded-lg shadow-2xl">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                   Sign in to your account
@@ -30,7 +30,7 @@ export default function Login() {
                   </Link>
               </form>
           </div>
-      </div>
+      </form>
   </div>
 </section>
   )

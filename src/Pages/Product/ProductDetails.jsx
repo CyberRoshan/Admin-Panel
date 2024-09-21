@@ -15,7 +15,7 @@ export default function ProductDetails() {
             <h3 className="text-[26px] font-semibold bg-slate-100 py-3 px-4 rounded-t-md border border-slate-400">
               Product Details
             </h3>
-            <div className="border border-t-0 p-3 rounded-b-md border-slate-400">
+            <form className="border border-t-0 p-3 rounded-b-md border-slate-400">
               <div className="mb-5">
                 <label
                   for="base-input"
@@ -229,7 +229,7 @@ export default function ProductDetails() {
               >
                 Add Product
               </button>
-            </div>
+            </form>
           </div>
         </div>
   </section>

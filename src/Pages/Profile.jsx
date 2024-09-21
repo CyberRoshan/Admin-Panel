@@ -13,7 +13,7 @@ export default function Profile() {
               <h3 className="text-[20px] font-semibold bg-slate-100 py-2 px-3 rounded-t-md border border-slate-400">
                 Profile
               </h3>
-              <div className="p-3 border border-t-0 rounded-b-md border-slate-400">
+              <form className="p-3 border border-t-0 rounded-b-md border-slate-400">
                 <div className="grid grid-cols-2">
                 <div>
                   <div className="mb-5">
@@ -153,7 +153,7 @@ export default function Profile() {
                         placeholder="Change Password"
                         required
                       />
-                      <button type="button" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Purple</button>
+                      <button type="button" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
                       </div>
                     </div>
                   </div>
@@ -165,7 +165,7 @@ export default function Profile() {
                     <h5 className="mt-3 text-[20px]">Profile Image</h5>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
           </>
