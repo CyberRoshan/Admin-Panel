@@ -13,7 +13,7 @@ export default function SliderView() {
             <div className="border border-t-0 rounded-b-md border-slate-400">
                 
 
-<div className="relative overflow-x-auto">
+<div className="relative overflow-x-auto rounded-md">
     <table className="w-full  text-left rtl:text-right text-gray-500 ">
         <thead className="text-sm text-gray-700 uppercase bg-gray-50 ">
             <tr>
@@ -47,7 +47,7 @@ export default function SliderView() {
         <tbody>
             <tr className="bg-white border-b">
                 <th scope="row" className="px-6 py-4 text-[18px] font-semibold text-gray-900 whitespace-nowrap ">
-                <input id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
+                <input name='deleteCheck' id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
                 </th>
                 <td className="px-6 py-4 font-bold">
                     1

@@ -18,12 +18,13 @@ export default function Profile() {
                 <div>
                   <div className="mb-5">
                     <label
-                      for="base-input"
+                      htmlFor="base-input"
                       className="block mb-5 text-md font-medium text-gray-900"
                     >
                       Name
                     </label>
                     <input
+                      name="userName"
                       type="text"
                       id="base-input"
                       className="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
@@ -33,7 +34,7 @@ export default function Profile() {
                   <br />
                   <div>
                     <label
-                      for="base-input"
+                      htmlFor="base-input"
                       className="block mb-5 text-md font-medium text-gray-900"
                     >
                       Social Links
@@ -51,8 +52,9 @@ export default function Profile() {
                           </svg>
                         </span>
                         <input
+                          name="facebookLink"
                           type="text"
-                          id="website-admin"
+                          id="fb-link"
                           className="rounded-lg border-2 text-black font-semibold shadow-sm  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5"
                           placeholder="Enter Facebook Account Link"
                         />
@@ -70,7 +72,8 @@ export default function Profile() {
                         </span>
                         <input
                           type="text"
-                          id="website-admin"
+                          name="instagramLink"
+                          id="ig-link"
                           className="rounded-lg border-2 text-black font-semibold shadow-sm  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5"
                           placeholder="Enter Instagram Account Link"
                         />
@@ -88,7 +91,8 @@ export default function Profile() {
                         </span>
                         <input
                           type="text"
-                          id="website-admin"
+                          name="youtubeLink"
+                          id="yt-link"
                           className="rounded-lg border-2 text-black font-semibold shadow-sm  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5"
                           placeholder="Enter Youtube Account Link"
                         />
@@ -106,7 +110,8 @@ export default function Profile() {
                         </span>
                         <input
                           type="text"
-                          id="website-admin"
+                          name="xLink"
+                          id="x-link"
                           className="rounded-lg border-2 text-black font-semibold shadow-sm  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5"
                           placeholder="Enter X Account Link"
                         />
@@ -114,7 +119,7 @@ export default function Profile() {
                     </div>
                     <div className="mb-5">
                       <label
-                        for="base-input"
+                        htmlFor="base-input"
                         className="block my-8 text-md font-medium text-gray-900"
                       >
                         Logo
@@ -127,7 +132,7 @@ export default function Profile() {
                     </div>
                     <div className="mb-5">
                       <label
-                        for="base-input"
+                        htmlFor="base-input"
                         className="block my-8 text-md font-medium text-gray-900"
                       >
                         Sub Logo
@@ -140,7 +145,7 @@ export default function Profile() {
                     </div>
                     <div className="mb-5">
                     <label
-                        for="base-input"
+                        htmlFor="base-input"
                         className="block my-8 text-md font-medium text-gray-900"
                       >
                         Sub Logo
@@ -148,12 +153,14 @@ export default function Profile() {
                       <div className="grid gap-3 grid-cols-[80%_auto] items-baseline">
                       <input
                         type="password"
+                        name="changePassword"
                         id="password"
+                        autoComplete="on"
                         className="border-2 border-gray-300 text-black shadow-md text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5"
                         placeholder="Change Password"
                         required
                       />
-                      <button type="button" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
+                      <button type="submit" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
                       </div>
                     </div>
                   </div>

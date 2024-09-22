@@ -37,7 +37,7 @@ export default function ViewSize() {
         <tbody>
             <tr className="bg-white border-b ">
                 <th scope="row" className="px-6 py-4 text-[18px] font-semibold text-gray-900 whitespace-nowrap ">
-                <input id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
+                <input name='deleteCheck' id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
                 </th>
                 <td className="px-6 py-4">
                     S
@@ -53,7 +53,7 @@ export default function ViewSize() {
             </tr>
             <tr className="bg-white border-b ">
                 <th scope="row" className="px-6 py-4 text-[20px] font-medium text-gray-900 whitespace-nowrap ">
-                <input id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
+                <input name='deleteCheck' id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
                 </th>
                 <td className="px-6 py-4">
                     M
@@ -69,7 +69,7 @@ export default function ViewSize() {
             </tr>
             <tr className="bg-white ">
                 <th scope="row" className="px-6 py-4 text-[20px] font-medium text-gray-900 whitespace-nowrap ">
-                <input id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
+                <input name='deleteCheck' id="purple-checkbox" type="checkbox" value="" className="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 "/>
                 </th>
                 <td className="px-6 py-4">
                     L

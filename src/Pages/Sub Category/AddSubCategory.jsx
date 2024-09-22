@@ -24,6 +24,7 @@ export default function AddSubCategory() {
                   </label>
                   <input
                     type="text"
+                    name="subCategoryName"
                     id="base-input"
                     className="text-[19px] border-2 shadow-sm border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 px-3 "
                     placeholder="Category Name"
@@ -39,6 +40,7 @@ export default function AddSubCategory() {
 
                   <select
                     id="default"
+                    name="parentCatSelectBox"
                     className=" border-2 border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                   >
                     <option selected>--Select Category--</option>
@@ -60,7 +62,7 @@ export default function AddSubCategory() {
                     </label>
                     <input
                       type="file"
-                      name="file-input"
+                      name="subCatFile-input"
                       id="file-input"
                       className="block w-full border border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  
     file:bg-gray-50 file:border-0
@@ -80,6 +82,7 @@ export default function AddSubCategory() {
                   </label>
                   <textarea
                     id="message"
+                    name="subcatDescription"
                     rows="3"
                     className=" resize-none block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
                     placeholder="Add Product Description....."
@@ -90,6 +93,7 @@ export default function AddSubCategory() {
                     Status :
                     <input
                       id="link-radio"
+                      name="status"
                       type="radio"
                       value=""
                       className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
@@ -97,6 +101,7 @@ export default function AddSubCategory() {
                     Active
                     <input
                       id="link-radio"
+                      name="status"
                       type="radio"
                       value=""
                       className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 "
@@ -105,7 +110,7 @@ export default function AddSubCategory() {
                   </span>
                 </div>
                 <button
-                  type="button"
+                  type="submit"
                   className="focus:outline-none my-10 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
                 >
                   Add Sub Category
